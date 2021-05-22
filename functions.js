@@ -25,12 +25,12 @@ greet("hakem");
  */
 function isOdd(n) {
   if (n % 2 === 0)
-  return consloe.log("false");
-  else return console.log("true");
+  return false ;
+  else return true;
 
 
 }
-isOdd(11);
+console.log(isOdd(11));
 /**
  * oddsSmallerThan(n):
  * - receives a number n
